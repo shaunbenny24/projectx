@@ -1,6 +1,7 @@
 *{
    padding: 0;
    margin: 0;
+   
 }
 body{
     background:linear-gradient(90deg,white 0%,lightpink 40%,lightblue 80%);
@@ -135,14 +136,14 @@ h5{
     }
     .data{
         padding: 0;
-        color: black;
-        background:linear-gradient(100% 448.53% at 0% 0%,rgba(130,76,239,0.7)0%,rgba(240, 166, 202, 1) 100%);
+        color: white;
+        background: radial-gradient(100% 448.53% at 0% 0%, rgba(130, 76, 239, 0.7) 0%, #F0A6CA 100%) ;
     
         padding: 2px;
-        width: 297px;
+        width: 338px;
         border: 1px solid white;
-        box-shadow: 1px 1px black;
-        border-radius: 0px 12px 12px 0px;
+        padding: 52px 42px;
+gap: 8px;
     }
     .whypics{
         display: flex;
@@ -171,14 +172,15 @@ h5{
         margin-left: 320px;
 
         color: black;
-        background:white;
         height: 243px;
         padding: 10px 43px 10px 10px;
+        background: radial-gradient(100% 1543% at 0% 0%, rgba(255, 255, 255, 1 ) 0%, rgba(255, 255, 255,1 ) 100%); 
     
         width: 221px;
-        border: 1px solid  wheat;
-        box-shadow: 1px  white;
-        border-radius: 2px;
+        border: 1px solid rgba(255,255,255,0.3);
+        box-shadow: 1px  rgba(255, 255, 255, 0.3);
+        border-radius: 3px;
+        backdrop-filter: blur(12px);
     }
     .vinod{
         display: flex;
@@ -199,8 +201,8 @@ h5{
     }
     .top{
         position: absolute;
-        top: 1802px;
-        left: 815px;
+        top: 1800px;
+        left: 904px;
         z-index: -1;
     }
     .blur1{
@@ -212,6 +214,7 @@ h5{
         position: absolute;
         top: 1670px;
         left: 1107px;
+        justify-content: center;
     }
 .blurstar{
     position: absolute;
