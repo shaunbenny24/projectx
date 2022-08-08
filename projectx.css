@@ -79,27 +79,26 @@ h1{
     text-align: center;
 }
 .box{
+    padding: 4px 10px;
     border-radius: 12px;
-    margin: 20px;
+    margin: 4px;
     width: 100px;
     color: black;
     background-color: white;
-    flex: none;
+    /*flex: none;
     order: 0;
-    flex-grow: 1;
+    flex-grow: 1;*/
     text-align: center;
 }
 h5{
-    display: flex;
+    margin: 4px 15px;
     text-align: center;
 }
 .bigbox{
-    background-color: rgb(214, 206, 206);
-    border: 1px solid rgba(255,255,255,0.3);
-    box-shadow: 0px 4px 7px rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255,0.4);
+    box-shadow: 2px 2px 2px rgb(255,255,255);
     backdrop-filter: blur(12px);
     width: 541px;
-    height: 97px;
     left: 100px;
     top: 649px;
     display: flex;
@@ -108,15 +107,15 @@ h5{
     align-items: flex-start;
     border-collapse: separate;
     border-spacing: 15px;
-    
+    padding: 20px;
+    margin: 10px;;
 
   
     
 }
 .bigbox2{ 
-    background-color: rgb(214, 206, 206);
-    border: 1px solid rgba(255,255,255,0.3);
-    box-shadow: 0px 4px 7px rgba(255,255,255,0.3);
+    background: rgba(255, 255, 255,0.4);
+    box-shadow: 2px 2px 2px rgb(255,255,255);
     backdrop-filter: blur(12px);
     width: 541px;
     height: 97px;
@@ -154,7 +153,8 @@ h5{
     }
     .centrewhy{
         display: flex;
-        padding-left: 200px;
+        padding-left: 162px;
+    
     }
     h2{
         padding-top: 50px;
@@ -184,6 +184,7 @@ h5{
     .twotable{
         display: flex;
         padding-left: 100px;
+        justify-content: center;
     }
     .bottom{
         position: absolute;
@@ -193,7 +194,7 @@ h5{
     }
     .top{
         position: absolute;
-        top: 1721px;
+        top: 1922px;
         left: 1041px;
         z-index: -1;
     }
